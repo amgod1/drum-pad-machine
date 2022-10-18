@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.keys-wrapper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.keys-wrapper h1 {
+    font-size: 4rem;
+}
+
+.keys {
+    margin-top: 45px;
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.key {
+    margin-top: 10px;
+    border: 3px solid white;
+    width: 100px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.1s;
+}
+
+.key kbd {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.demo-mp3s {
+    margin-top: 20px;
+}
+
+.demo {
+    margin-top: 15px;
+    border: 3px solid white;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.1s;
+}
+
+.demo kbd {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.play {
+    transform: scale(0.85);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}

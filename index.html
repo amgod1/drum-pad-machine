@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="fav-drums-32.png">
+    <title>Drum Pad Machine</title>
+</head>
+<body>
+    <main class="keys-wrapper">
+        <h1>
+            Music is my religion.
+        </h1>
+        <div class="keys">
+            <div class="KeyA key">
+                <kbd>A</kbd>
+                <span class="sound">crash</span>
+            </div>
+            <div class="KeyS key">
+                <kbd>S</kbd>
+                <span class="sound">hi hat</span>
+            </div>
+            <div class="KeyD key">
+                <kbd>D</kbd>
+                <span class="sound">open hat</span>
+            </div>
+            <div class="KeyH key">
+                <kbd>H</kbd>
+                <span class="sound">snare</span>
+            </div>
+            <div class="KeyJ key">
+                <kbd>J</kbd>
+                <span class="sound">kick</span>
+            </div>
+            <div class="KeyK key">
+                <kbd>K</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div class="KeyL key">
+                <kbd>L</kbd>
+                <span class="sound">perc</span>
+            </div>
+        </div>
+        <div class="demo-mp3s">
+            <div class="KeyV demo">
+                <kbd>V</kbd>
+                <span class="sound">demo sample</span>
+            </div>
+        </div>
+    </main>
+
+    <audio class="KeyA" src="samples/crash.wav"></audio>
+    <audio class="KeyS" src="samples/hi hat.wav"></audio>
+    <audio class="KeyD" src="samples/open hat.wav"></audio>
+    <audio class="KeyH" src="samples/snare.wav"></audio>
+    <audio class="KeyJ" src="samples/kick.wav"></audio>
+    <audio class="KeyK" src="samples/clap.wav"></audio>
+    <audio class="KeyL" src="samples/perc.wav"></audio>
+    <audio class="KeyV" src="samples/demo1.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
